@@ -10,11 +10,49 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.github.aves_app.aves.MainActivity">
 
-    <GridLayout
+    <LinearLayout
+        android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_alignParentTop="true"
         android:layout_alignParentStart="true">
 
-    </GridLayout>
+        <TextView
+            android:text="Vögel der Schweiz"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/title"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+            android:textStyle="normal|bold"
+            android:textSize="24sp" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/mainSearch"
+                android:layout_weight="1"
+                android:hint="Suche" />
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/mainSearchSelection"
+                android:layout_weight="1"
+                android:entries="@array/mainWindowSearchType_List" />
+        </LinearLayout>
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </GridLayout>
+
+    </LinearLayout>
 </RelativeLayout>

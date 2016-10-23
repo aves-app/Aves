@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="mainWindowSearchType_List">
+        <item>Vogelname</item>
+        <item>Lebensraum</item>
+        <item>Gruppe</item>
+        <item>Nahrung</item>
+        <item>Rote Liste</item>
+    </string-array>
+
+</resources>
