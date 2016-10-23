@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "197283764039",
+    "firebase_url": "https://aves-9b77b.firebaseio.com",
+    "project_id": "aves-9b77b",
+    "storage_bucket": "aves-9b77b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:197283764039:android:c1443ea35e0a7da2",
+        "android_client_info": {
+          "package_name": "com.github.aves_app.aves"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "197283764039-bsgl0mmna3uo7nukmk1bf4ena2mhnet3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDG-1vSe9nsELFzVYvRimMGukGWwUlhtao"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
